@@ -188,7 +188,7 @@ class BigNumber {
       multiSum.push(multi + "0".repeat(i));
       multi = "";
     }
-    // console.log(multiSum)
+
 
     if (multiSum.length === 1) {
       return Mmulti ? Msign + multiSum[0] : multiSum[0];
@@ -335,13 +335,13 @@ class BigNumber {
     }
   }
 }
-const bigN = new BigNumber("-600", "-300");
+const bigN = new BigNumber("6000555555550111111101111111111115158444444449999918418", "300888888888888844488210008888888888888822222000000000000899999");
 // console.log(bigN.sum());
-console.log(bigN.minus());
+// console.log(bigN.minus());
 // console.log(bigN.multiplication());
 // console.log(bigN.division());
-// console.log(bigN.factorial("7"));
-// console.log(bigN.pow("5", "3"));
+// console.log(bigN.factorial("999"));
+// console.log(bigN.pow("555", "999"));
 // console.log(bigN.shiftR("672467246742571", 3));
 // console.log(bigN.shiftL("672467246742571", 5));
 // console.log(bigN.inc("8541584158105058158110521484884105015810501"))
